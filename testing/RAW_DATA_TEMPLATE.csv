@@ -1,0 +1,1 @@
+timestamp,test_id,mode,wind_speed_mps,irradiance_w_m2,solar_voltage_v,solar_current_a,wind_voltage_v,wind_current_a,bus_voltage_v,bus_current_a,rotor_rpm,battery_voltage_v,battery_current_a,load_power_w,notes

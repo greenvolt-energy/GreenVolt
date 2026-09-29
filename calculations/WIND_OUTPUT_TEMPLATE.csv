@@ -1,0 +1,2 @@
+timestamp,wind_speed_mps,rotor_rpm,generator_voltage_v,generator_current_a,wind_power_w,load_condition,measurement_status,notes
+,,,,,,,,

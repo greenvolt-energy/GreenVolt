@@ -1,0 +1,18 @@
+Subsystem,Component,Specification,Qty,Documented Cost INR,Status/Note
+Energy Harvesting,Solar PV Panels,4 x 20 W monocrystalline flexible,4,4800,Documented design
+Energy Harvesting,Wind Generators,Low-KV gimbal BLDC motors,8,8000,Experimental generator units
+Energy Harvesting,AeroLeaf Rotors,Thin aluminium / ACP blades,8 sets,2500,Prototype design
+Power,Wind Rectifiers,3-phase bridge modules,8,800,Verify exact part rating before procurement
+Power,Solar Controller,24 V nominal 10 A PWM/MPPT in source document,1,1000,Legacy 24 V item; update if 48 V is final
+Storage,Battery Bank,24 V 20 Ah lead-acid bank in source document,1,4500,Legacy 24 V item; replace/verify for final architecture
+Power,Inverter,24 V DC to 230 V AC 300–500 W,1,2000,Optional; legacy 24 V item
+Control,ESP32,ESP32-WROOM-32,1,500,Monitoring
+Sensors,Power Sensors,INA219 / ACS712 modules,1 set,1000,Verify voltage/current range
+Sensors,Speed Sensor,Hall-effect sensor,2,300,RPM measurement
+Structure,Tree Structure,2.5 m MS/aluminium frame,1 set,6000,Documented design
+Mechanical,Mechanical Drive,EN8 shafts/pillow blocks/GT2 belts or couplings,1 set,3900,Documented design
+Safety,Electrical Safety,IP65 enclosure,breakers,fuses,E-stop,1 set,2200,Documented design
+Wiring,Wiring and Hardware,14 AWG cables,MC4,terminals,SS screws,1 set,2700,Documented design
+Demo,Finishing and Demo,Coating and 24 V LED load in source document,1 set,3000,Legacy 24 V item
+Contingency,Spare Hardware,Diodes/wire/structural hardware,Lump,1600,Contingency
+TOTAL,,, ,48500,Source-document total
